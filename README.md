@@ -1,4 +1,4 @@
-# go-twitter [![Build Status](https://github.com/dghubble/go-twitter/workflows/test/badge.svg)](https://github.com/dghubble/go-twitter/actions?query=workflow%3Atest+branch%3Amaster) [![GoDoc](https://godoc.org/github.com/dghubble/go-twitter?status.svg)](https://godoc.org/github.com/dghubble/go-twitter)
+# go-twitter [![Build Status](https://github.com/peterargue/go-twitter/workflows/test/badge.svg)](https://github.com/peterargue/go-twitter/actions?query=workflow%3Atest+branch%3Amaster) [![GoDoc](https://godoc.org/github.com/dghubble/go-twitter?status.svg)](https://godoc.org/github.com/dghubble/go-twitter)
 
 <img align="right" src="https://storage.googleapis.com/dghubble/gopher-on-bird.png">
 
@@ -28,11 +28,11 @@ go-twitter is a Go client library for the [Twitter API](https://dev.twitter.com/
 
 ## Install
 
-    go get github.com/dghubble/go-twitter/twitter
+    go get github.com/peterargue/go-twitter/twitter
 
 ## Documentation
 
-Read [GoDoc](https://godoc.org/github.com/dghubble/go-twitter/twitter)
+Read [GoDoc](https://godoc.org/github.com/peterargue/go-twitter/twitter)
 
 ## Usage
 
@@ -225,7 +225,7 @@ For example, make requests as a consumer application on behalf of a user who has
 ```go
 // OAuth1
 import (
-    "github.com/dghubble/go-twitter/twitter"
+    "github.com/peterargue/go-twitter/twitter"
     "github.com/dghubble/oauth1"
 )
 
@@ -243,7 +243,7 @@ If no user auth context is needed, make requests as your application with applic
 ```go
 // OAuth2
 import (
-    "github.com/dghubble/go-twitter/twitter"
+    "github.com/peterargue/go-twitter/twitter"
     "golang.org/x/oauth2"
     "golang.org/x/oauth2/clientcredentials"
 )

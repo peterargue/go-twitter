@@ -1,4 +1,4 @@
-module github.com/dghubble/go-twitter/examples
+module github.com/peterargue/go-twitter/examples
 
 go 1.12
 
